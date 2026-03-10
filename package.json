@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "tcs",
+    "dev": "tsx src/index.ts",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
