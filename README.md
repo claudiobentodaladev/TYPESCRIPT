@@ -38,7 +38,7 @@ The goal is to track my progress, study key concepts, and build a useful referen
 ## 💻 How to Run the Exercises
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/typescript-exercises.git
+git clone https://github.com/claudiobentodaladev/typescript
 
 # Enter the exercise folder
 cd typescript-exercises/exercise-name
