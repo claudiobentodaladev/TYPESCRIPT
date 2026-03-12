@@ -1,4 +1,4 @@
-//  Interface
+//  Interface is a way to define the structure of an object. It allows us to specify the properties and their types that an object should have. This helps to ensure that objects conform to a specific shape and can be used consistently throughout the codebase.
 
 interface UserWallet {
   coins?: number;
