@@ -22,17 +22,27 @@ function createUser(username: string): User {
   };
 }
 
-function updateWallet(user: User, wallet?: UserWallet): void {
-  user.wallet = {
-    coins: wallet?.coins || user.wallet.coins,
-    credits: wallet?.credits || user.wallet.credits
-  };
+function updateWallet(user: User, wallet: UserWallet): void {
+  if (wallet.coins && !wallet.credits) {
+    user.wallet = {
+      coins: wallet.coins + (user.wallet.coins ?? 0),
+      credits: user.wallet.credits,
+    };
+    return;
+  }
+  if (wallet.credits && !wallet.coins) {
+    user.wallet = {
+      coins: user.wallet.coins,
+      credits: wallet?.credits + (user.wallet.credits ?? 0),
+    };
+    return;
+  } else return;
 }
 
 const user = createUser("claudio");
 
 console.log(user);
 
-updateWallet(user,{coins: 10});
+updateWallet(user, { credits: 10 });
 
 console.log(user);
