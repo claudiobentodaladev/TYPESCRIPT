@@ -1,4 +1,4 @@
-//  Type annotacions
+//  Type annotacions is used to explicitly declare the type of a variable, function parameter, or return value. It helps to catch type-related errors during development and improves code readability.
 
 function sum(a: number, b: number): number {
   return a + b;
