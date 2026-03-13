@@ -41,7 +41,7 @@ The goal is to track my progress, study key concepts, and build a useful referen
 git clone https://github.com/claudiobentodaladev/typescript
 
 # Enter the exercise folder
-cd typescript-exercises/exercise-name
+cd exercises
 
 # Install dependencies
 npm install
@@ -50,4 +50,4 @@ npm install
 npx tsc
 
 # Run with ts-node
-npx ts-node index.ts
+npm run dev
