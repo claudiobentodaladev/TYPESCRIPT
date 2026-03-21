@@ -1,7 +1,7 @@
 // Enums (enumeration) is a way to crete enumerated constant named
 
 enum Directions {
-  // like this a number with enums elemets positions
+  // like this, the elemets are a number in enums positions
   Noth,
   South,
   East,
