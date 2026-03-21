@@ -18,3 +18,5 @@ const position: Position = {
   y: 312,
   direction: Directions.East,
 };
+
+console.log(position);
