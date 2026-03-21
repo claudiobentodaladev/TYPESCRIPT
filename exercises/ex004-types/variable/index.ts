@@ -1,4 +1,4 @@
-// Types is a way to define custom types.
+// Types is used to define custom types.
 
 type input = string | number;
 
