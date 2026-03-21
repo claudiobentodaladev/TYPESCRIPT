@@ -17,3 +17,5 @@ const cloth: Cloth = {
   color: "red",
   size: ClothingSize.Large,
 };
+
+console.log(cloth);
