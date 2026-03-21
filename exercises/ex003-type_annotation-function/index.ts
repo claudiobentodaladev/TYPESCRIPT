@@ -8,7 +8,7 @@ console.log(sum(3, 2));
 const greet = (name: string, age?: number): void => {
   console.log(`Hi, ${name}`);
 
-  if (age) console.log(`are you ${age} years old`);
+  if (age) console.log(`you are ${age} years old`);
 };
 
 greet("claudio", 16);
